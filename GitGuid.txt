@@ -1,0 +1,14 @@
+git config --global user.name "" #创建用户名
+git config --global user.email "" #创建邮箱
+mkdir directionary #创建文件目录
+cd direcionary #切换到directionary目录中
+pwd #查看当前路径
+git init #将当前目录变成Git可以管理的仓库
+git add filename #将本地文件添加到缓冲区
+git commit filename --m "remark" #将缓冲去中的文件提交到本地stage中
+git status #查看当前目录中文件状态
+git diff filename #比较文件与上一版本不同
+git log #查看提交的Log日志
+git reset --hard HEAD^ #上一个版本
+git reset --hard HEAD^^ #上两个版本
+git reset --hard HEAD~100 #上100个版本
