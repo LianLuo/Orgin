@@ -1,0 +1,18 @@
+﻿CREATE TABLE [RecordData](
+[ID] INTEGER PRIMARY KEY AUTOINCREMENT,
+[UserNumber] CHAR(50) NOT NULL,
+[UserName] CHAR(50) NOT NULL,
+[PlaceArea] CHAR(50) NOT NULL,
+[CurrentDate] DateTime,
+[StartDate] DateTime,
+[EndDate] DateTime,
+[IsOverTime] BIT DEFAULT 0,
+[IsCanBu] BIT DEFAULT 0,
+[AllDayTime] FLOAT
+);
+CREATE TABLE [HolidayData](
+[ID] INTEGER PRIMARY KEY AUTOINCREMENT,
+[HolidayName] CHAR(50) NOT NULL,
+[HolidayDate] DateTime,
+[IsUpClass] BIT DEFAULT 0
+);

@@ -1,0 +1,15 @@
+E:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\obj\Debug\XTime.Wolf.Commons.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2010\XTime.Wolf.App\EnLib\XTime.Wolf.Commons.dll
+E:\Visual Studio 2010\XTime.Wolf.App\EnLib\XTime.Wolf.Commons.pdb
+E:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\obj\Debug\XTime.Wolf.Commons.dll
+E:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\obj\Debug\XTime.Wolf.Commons.pdb
+C:\Visual Studio 2010\XTime.Wolf.App\EnLib\XTime.Wolf.Commons.dll
+C:\Visual Studio 2010\XTime.Wolf.App\EnLib\XTime.Wolf.Commons.pdb
+C:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\obj\Debug\XTime.Wolf.Commons.csprojResolveAssemblyReference.cache
+C:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\obj\Debug\XTime.Wolf.Commons.dll
+C:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\obj\Debug\XTime.Wolf.Commons.pdb
+D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\obj\Debug\XTime.Wolf.Commons.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\obj\Debug\XTime.Wolf.Commons.pdb
+D:\Visual Studio 2010\XTime.Wolf.App\EnLib\XTime.Wolf.Commons.dll
+D:\Visual Studio 2010\XTime.Wolf.App\EnLib\XTime.Wolf.Commons.pdb
+D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\obj\Debug\XTime.Wolf.Commons.dll

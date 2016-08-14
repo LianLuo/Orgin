@@ -1,0 +1,9 @@
+D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\bin\Release\XTime.Wolf.Commons.dll
+D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\bin\Release\XTime.Wolf.Commons.pdb
+D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\bin\Release\log4net.dll
+D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\bin\Release\System.Data.SQLite.dll
+D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\bin\Release\XTime.Wolf.Model.dll
+D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\bin\Release\XTime.Wolf.Model.pdb
+D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\obj\Release\XTime.Wolf.Commons.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\obj\Release\XTime.Wolf.Commons.dll
+D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Commons\obj\Release\XTime.Wolf.Commons.pdb
