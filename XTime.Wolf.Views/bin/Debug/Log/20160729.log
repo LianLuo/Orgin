@@ -1,0 +1,68 @@
+﻿[2016-07-29 00:08:20]  程序已启动.
+[2016-07-29 00:21:20]  值不能为 null。
+参数名: input
+[2016-07-29 00:36:22]  程序已启动.
+[2016-07-29 00:45:22]  值不能为 null。
+参数名: input
+[2016-07-29 00:37:24]  程序已启动.
+[2016-07-29 00:47:24]  值不能为 null。
+参数名: input
+[2016-07-29 00:35:25]  程序已启动.
+[2016-07-29 00:49:26]  值不能为 null。
+参数名: input
+[2016-07-29 00:13:27]  程序已启动.
+[2016-07-29 00:24:27]     在 System.Web.Script.Serialization.JavaScriptSerializer.Deserialize(JavaScriptSerializer serializer, String input, Type type, Int32 depthLimit)
+   在 System.Web.Script.Serialization.JavaScriptSerializer.Deserialize[T](String input)
+   在 XTime.Wolf.Views.UIControls.BrowerControls.JsonSerizer(Int32& workDays, Single& currentTimes, Int32& dinnerBu, Int32& overTime) 位置 D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Views\UIControls\BrowerControls.cs:行号 40
+   在 XTime.Wolf.Views.UIControls.BrowerControls..ctor(String flag) 位置 D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Views\UIControls\BrowerControls.cs:行号 31
+   在 XTime.Wolf.Views.MainView..ctor() 位置 D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Views\MainView.cs:行号 21
+   在 XTime.Wolf.Views.Program.Main() 位置 D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Views\Program.cs:行号 36
+[2016-07-29 00:45:32]  程序已启动.
+[2016-07-29 00:53:56]  程序已启动.
+[2016-07-29 01:17:17]  程序已启动.
+[2016-07-29 01:18:24]  程序已启动.
+[2016-07-29 01:38:48]  程序已启动.
+[2016-07-29 01:30:49]  程序已启动.
+[2016-07-29 01:31:50]  程序已启动.
+[2016-07-29 01:55:55]  程序已启动.
+[2016-07-29 23:45:15]  程序已启动.
+[2016-07-29 23:02:16]  
+[2016-07-29 23:07:16]  System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   在 System.Collections.ObjectModel.Collection`1.set_Item(Int32 index, T value)
+   在 XTime.Wolf.Views.UIControls.StaticGraphView.InitialData() 位置 D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Views\UIControls\StaticGraphView.cs:行号 48
+   在 XTime.Wolf.Views.UIControls.StaticGraphView..ctor() 位置 D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Views\UIControls\StaticGraphView.cs:行号 19
+   在 XTime.Wolf.Views.MainView.GetControlByControlName(String name) 位置 D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Views\MainView.cs:行号 286
+   在 XTime.Wolf.Views.MainView.leftSideBar_ItemClick(Object sender, EventArgs e) 位置 D:\Visual Studio 2010\XTime.Wolf.App\XTime.Wolf.Views\MainView.cs:行号 249
+   在 DevComponents.DotNetBar.SideBar.ਬ(BaseItem ৷)
+   在 DevComponents.DotNetBar.BaseItem.RaiseClick(eEventSource source)
+   在 DevComponents.DotNetBar.BaseItem.InternalMouseUp(MouseEventArgs objArg)
+   在 DevComponents.DotNetBar.PopupItem.InternalMouseUp(MouseEventArgs objArg)
+   在 DevComponents.DotNetBar.ButtonItem.InternalMouseUp(MouseEventArgs objArg)
+   在 DevComponents.DotNetBar.BaseItem.InternalMouseUp(MouseEventArgs objArg)
+   在 DevComponents.DotNetBar.SideBarPanelItem.InternalMouseUp(MouseEventArgs objArg)
+   在 DevComponents.DotNetBar.BaseItem.InternalMouseUp(MouseEventArgs objArg)
+   在 DevComponents.DotNetBar.SideBar.OnMouseUp(MouseEventArgs e)
+   在 System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   在 System.Windows.Forms.Control.WndProc(Message& m)
+   在 DevComponents.DotNetBar.SideBar.WndProc(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   在 System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   在 System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+[2016-07-29 23:13:23]  程序已启动.
+[2016-07-29 23:25:31]  程序已启动.
+[2016-07-29 23:48:38]  程序已启动.
+[2016-07-29 23:06:40]  程序已启动.
+[2016-07-29 23:55:40]  程序已启动.
+[2016-07-29 23:12:42]  程序已启动.
+[2016-07-29 23:16:44]  程序已启动.
+[2016-07-29 23:51:44]  程序已启动.
+[2016-07-29 23:22:46]  程序已启动.
+[2016-07-29 23:34:47]  程序已启动.
+[2016-07-29 23:10:49]  程序已启动.
+[2016-07-29 23:46:49]  程序已启动.
+[2016-07-29 23:11:50]  程序已启动.
+[2016-07-29 23:39:53]  程序已启动.
+[2016-07-29 23:07:55]  程序已启动.
+[2016-07-29 23:53:55]  程序已启动.

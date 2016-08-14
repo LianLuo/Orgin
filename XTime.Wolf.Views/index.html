@@ -1,0 +1,70 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+		<title></title>
+        <style type="text/css">
+        table
+        {
+            border:0px;
+            cellpadding:0px;
+            cellspacing:0;
+            width:900px;
+            background-color:#abcdef;
+            align:center;
+        }
+        table tr
+        {
+            background-color:#ffffff;
+        }
+        table td
+        {
+            text-align:center;
+        }
+        
+        .colRed
+        {
+            color:Red;
+        }
+        
+        .colGay
+        {
+            color:#c3c3c3;
+        }
+        
+        .colBlack
+        {
+            color:black;
+        }
+        
+        .colPink
+        {
+            color:pink;
+         }
+        </style>
+	</head>
+    
+	<body  onContextMenu="return false" onselectstart="return false">
+	    <center><table>
+            <thead>
+                <tr>
+                    <th colspan="10" style="width:1200px;">XTime工时系统</th>
+                </tr>
+                <tr><th>工号</th><th>区域</th><th>姓名</th><th>日期</th><th>上班时间</th><th>下班时间</th><th>是否加班</th><th>是否餐补</th><th>是否迟到</th><th>全天时常</th></tr>
+            </thead>
+            <tbody>
+            $body
+            </tbody>
+        </table>
+        <br />
+        </center>
+        <div style="margin-left:400px;">
+        加班天数:&nbsp;<font color="red">$overTime</font>&nbsp;天<br />
+        晚餐补助:&nbsp;<font color="#abcdef">$canbu</font>&nbsp;次<br />
+        上班天数:&nbsp;$day&nbsp;天<br/>
+        应到时长:&nbsp;$shouldTime&nbsp;小时<br/>
+        实到时长:&nbsp;$allTime&nbsp;小时<br/>
+        </div>
+        
+	</body>
+</html>

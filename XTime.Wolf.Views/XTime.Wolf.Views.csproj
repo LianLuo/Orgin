@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E245DFF-2F1F-49CC-A98E-BE43E3CD7AFA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XTime.Wolf.Views</RootNamespace>
+    <AssemblyName>XTime.Wolf.Views</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>png-0767.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ControlLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\ControlLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=10.9.0.4, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commons\HttpWebHelper.cs" />
+    <Compile Include="Commons\InformationArgs.cs" />
+    <Compile Include="Commons\ViewHelper.cs" />
+    <Compile Include="GlobalControl.cs" />
+    <Compile Include="MainView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainView.Designer.cs">
+      <DependentUpon>MainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UIControls\BrowerControls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIControls\BrowerControls.Designer.cs">
+      <DependentUpon>BrowerControls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIControls\HistorySearchView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIControls\HistorySearchView.Designer.cs">
+      <DependentUpon>HistorySearchView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIControls\ISplashView.cs" />
+    <Compile Include="UIControls\LoginView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIControls\LoginView.Designer.cs">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIControls\SearchForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIControls\SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIControls\ShowDataBrower.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIControls\ShowDataBrower.Designer.cs">
+      <DependentUpon>ShowDataBrower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIControls\Splasher.cs" />
+    <Compile Include="UIControls\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIControls\SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIControls\StaticGraphView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIControls\StaticGraphView.Designer.cs">
+      <DependentUpon>StaticGraphView.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MainView.resx">
+      <DependentUpon>MainView.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UIControls\BrowerControls.resx">
+      <DependentUpon>BrowerControls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControls\HistorySearchView.resx">
+      <DependentUpon>HistorySearchView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControls\LoginView.resx">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControls\SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControls\ShowDataBrower.resx">
+      <DependentUpon>ShowDataBrower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControls\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIControls\StaticGraphView.resx">
+      <DependentUpon>StaticGraphView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LocalData\localData.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="LocalData\recordData.bin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\XTime.Wolf.CommonResource\XTime.Wolf.CommonResource.csproj">
+      <Project>{DA1B2EB7-C977-499A-9244-3CA929638CE1}</Project>
+      <Name>XTime.Wolf.CommonResource</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XTime.Wolf.Commons\XTime.Wolf.Commons.csproj">
+      <Project>{F955FC8F-740B-4417-BE14-B819F956E9F5}</Project>
+      <Name>XTime.Wolf.Commons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XTime.Wolf.Model\XTime.Wolf.Model.csproj">
+      <Project>{14E8D9E2-92A4-4026-8482-492AC2F08361}</Project>
+      <Name>XTime.Wolf.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="showData.html" />
+    <EmbeddedResource Include="ImagesIco\7.png" />
+    <EmbeddedResource Include="ImagesIco\8.png" />
+    <EmbeddedResource Include="ImagesIco\9.png" />
+    <Content Include="Readme.txt" />
+    <EmbeddedResource Include="ImagesIco\1.png" />
+    <EmbeddedResource Include="ImagesIco\2.png" />
+    <EmbeddedResource Include="ImagesIco\3.png" />
+    <EmbeddedResource Include="ImagesIco\4.png" />
+    <EmbeddedResource Include="ImagesIco\5.png" />
+    <Content Include="ImagesIco\png-0767.ico" />
+    <EmbeddedResource Include="index.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="libs\ControlLibrary.dll" />
+    <Content Include="PluginButton.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="png-0767.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
