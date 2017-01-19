@@ -12,3 +12,8 @@ git log #查看提交的Log日志
 git reset --hard HEAD^ #上一个版本
 git reset --hard HEAD^^ #上两个版本
 git reset --hard HEAD~100 #上100个版本
+git reset --hard version #指定回退到某个版本上面
+git checkout -- file #撤销修改回到添加到暂存去的状态
+git reset HEAD file #可以把暂存区的修改撤销掉
+git rm file # 删除某个文件，删除后需要commit操作，如果删错了需要用checkout 撤销
+
