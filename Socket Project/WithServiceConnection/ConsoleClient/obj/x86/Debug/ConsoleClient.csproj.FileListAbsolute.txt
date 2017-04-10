@@ -1,0 +1,4 @@
+D:\Visual Studio 2010\Soft.Client\ConsoleClient\bin\Debug\ConsoleClient.exe
+D:\Visual Studio 2010\Soft.Client\ConsoleClient\bin\Debug\ConsoleClient.pdb
+D:\Visual Studio 2010\Soft.Client\ConsoleClient\obj\x86\Debug\ConsoleClient.exe
+D:\Visual Studio 2010\Soft.Client\ConsoleClient\obj\x86\Debug\ConsoleClient.pdb
