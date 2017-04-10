@@ -28,6 +28,9 @@ namespace ConsoleService
         Thread threadWatch;
         Socket socketClient;
 
+        /// <summary>
+        /// bind address:port
+        /// </summary>
         public ServiceManager()
         {
             IPAddress address = IPAddress.Parse("192.168.1.104");
@@ -37,6 +40,9 @@ namespace ConsoleService
             Console.WriteLine("Service has start.");
         }
 
+        /// <summary>
+        /// start thread to listen what information from client 
+        /// </summary>
         public void StartConnection()
         {
             socketWatch.Listen(10);
@@ -61,6 +67,7 @@ namespace ConsoleService
                     Console.WriteLine("Rec from client Exception:{0}", e.Message);
                 }
             });
+            // set the thread is background thread
             threadWatch.IsBackground = true;
             threadWatch.Start();
         }

@@ -31,8 +31,9 @@ namespace ConsoleClient
             try
             {
                 socketClient = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-                IPAddress address = IPAddress.Parse("192.168.1.104");
+                IPAddress address = IPAddress.Parse("127.0.0.1");
                 IPEndPoint endPoint = new IPEndPoint(address, 5000);
+                // connection service address:port
                 socketClient.Connect(endPoint);
                 Console.WriteLine("connection service success.");
             }
@@ -42,6 +43,9 @@ namespace ConsoleClient
             }
         }
 
+        /// <summary>
+        /// start thread to listen information from service
+        /// </summary>
         public void StartThread()
         {
             threadClient = new Thread(WatchMsg);
@@ -55,6 +59,7 @@ namespace ConsoleClient
             {
                 try
                 {
+                    // assign 2M space to receive data
                     byte[] rec = new byte[1024 * 1024 * 2];
                     int index = socketClient.Receive(rec);
                     if (index > 0)
@@ -70,6 +75,10 @@ namespace ConsoleClient
             }
         }
 
+        /// <summary>
+        /// client send msg to service
+        /// </summary>
+        /// <param name="msg"></param>
         public void SendMsg(string msg)
         {
             try
